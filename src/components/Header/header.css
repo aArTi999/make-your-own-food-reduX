@@ -1,0 +1,13 @@
+.nav {
+  z-index: 10;
+  width: 100%;
+  min-height: 10vh;
+  background-color: white;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.cross-icon {
+  display: none;
+
+  margin-right: 2rem;
+}

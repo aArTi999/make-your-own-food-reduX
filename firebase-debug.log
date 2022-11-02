@@ -1,0 +1,351 @@
+[debug] [2022-11-02T15:50:25.912Z] ----------------------------------------------------------------------
+[debug] [2022-11-02T15:50:25.914Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2022-11-02T15:50:25.915Z] CLI Version:   11.16.0
+[debug] [2022-11-02T15:50:25.916Z] Platform:      win32
+[debug] [2022-11-02T15:50:25.916Z] Node Version:  v16.17.0
+[debug] [2022-11-02T15:50:25.917Z] Time:          Wed Nov 02 2022 21:20:25 GMT+0530 (India Standard Time)
+[debug] [2022-11-02T15:50:25.918Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-02T15:50:25.927Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-02T15:50:25.930Z] > authorizing via signed-in user (aartisharma0799@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React\make-your-own-food-redux
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-02T15:50:36.461Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-02T15:50:37.360Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-11-02T15:50:37.360Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project recipe-app-43c30 (Recipe App) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-11-02T15:50:49.339Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-11-02T15:50:51.097Z] FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: unable to get local issuer certificate
+    at ClientRequest.<anonymous> (C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\node-fetch\lib\index.js:1491:11)
+    at ClientRequest.emit (node:events:513:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to make request to https://www.gstatic.com/firebasejs/releases.json
+[debug] [2022-11-02T15:51:47.255Z] ----------------------------------------------------------------------
+[debug] [2022-11-02T15:51:47.257Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2022-11-02T15:51:47.257Z] CLI Version:   11.16.0
+[debug] [2022-11-02T15:51:47.257Z] Platform:      win32
+[debug] [2022-11-02T15:51:47.257Z] Node Version:  v16.17.0
+[debug] [2022-11-02T15:51:47.258Z] Time:          Wed Nov 02 2022 21:21:47 GMT+0530 (India Standard Time)
+[debug] [2022-11-02T15:51:47.258Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-02T15:51:47.265Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-02T15:51:47.268Z] > authorizing via signed-in user (aartisharma0799@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React\make-your-own-food-redux
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-02T15:51:56.409Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-02T15:51:57.306Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-11-02T15:51:57.307Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project recipe-app-43c30 (Recipe App) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-11-02T15:52:19.795Z] ----------------------------------------------------------------------
+[debug] [2022-11-02T15:52:19.797Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2022-11-02T15:52:19.797Z] CLI Version:   11.16.0
+[debug] [2022-11-02T15:52:19.797Z] Platform:      win32
+[debug] [2022-11-02T15:52:19.797Z] Node Version:  v16.17.0
+[debug] [2022-11-02T15:52:19.799Z] Time:          Wed Nov 02 2022 21:22:19 GMT+0530 (India Standard Time)
+[debug] [2022-11-02T15:52:19.799Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-02T15:52:19.806Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-02T15:52:19.809Z] > authorizing via signed-in user (aartisharma0799@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React\make-your-own-food-redux
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-02T15:52:32.853Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-02T15:52:34.984Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-11-02T15:52:34.985Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project recipe-app-43c30 (Recipe App) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-11-02T15:52:46.398Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-11-02T15:52:48.448Z] FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: unable to get local issuer certificate
+    at ClientRequest.<anonymous> (C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\node-fetch\lib\index.js:1491:11)
+    at ClientRequest.emit (node:events:513:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to make request to https://www.gstatic.com/firebasejs/releases.json
+[debug] [2022-11-02T16:02:32.818Z] ----------------------------------------------------------------------
+[debug] [2022-11-02T16:02:32.821Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2022-11-02T16:02:32.822Z] CLI Version:   11.16.0
+[debug] [2022-11-02T16:02:32.822Z] Platform:      win32
+[debug] [2022-11-02T16:02:32.822Z] Node Version:  v16.17.0
+[debug] [2022-11-02T16:02:32.823Z] Time:          Wed Nov 02 2022 21:32:32 GMT+0530 (India Standard Time)
+[debug] [2022-11-02T16:02:32.824Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-02T16:02:32.835Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-02T16:02:32.837Z] > authorizing via signed-in user (aartisharma0799@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React\make-your-own-food-redux
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-02T16:02:45.449Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-02T16:02:46.235Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-11-02T16:02:46.235Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project recipe-app-43c30 (Recipe App) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-11-02T16:02:54.033Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-11-02T16:02:55.265Z] FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: unable to get local issuer certificate
+    at ClientRequest.<anonymous> (C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\node-fetch\lib\index.js:1491:11)
+    at ClientRequest.emit (node:events:513:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to make request to https://www.gstatic.com/firebasejs/releases.json
+[debug] [2022-11-02T16:03:47.273Z] ----------------------------------------------------------------------
+[debug] [2022-11-02T16:03:47.276Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2022-11-02T16:03:47.277Z] CLI Version:   11.16.0
+[debug] [2022-11-02T16:03:47.277Z] Platform:      win32
+[debug] [2022-11-02T16:03:47.277Z] Node Version:  v16.17.0
+[debug] [2022-11-02T16:03:47.279Z] Time:          Wed Nov 02 2022 21:33:47 GMT+0530 (India Standard Time)
+[debug] [2022-11-02T16:03:47.280Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-02T16:03:47.288Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-02T16:03:47.293Z] > authorizing via signed-in user (aartisharma0799@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React\make-your-own-food-redux
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-02T16:04:01.677Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-02T16:04:02.568Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-11-02T16:04:02.568Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project recipe-app-43c30 (Recipe App) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-11-02T16:04:10.565Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-11-02T16:04:11.040Z] FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: unable to get local issuer certificate
+    at ClientRequest.<anonymous> (C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\node-fetch\lib\index.js:1491:11)
+    at ClientRequest.emit (node:events:513:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to make request to https://www.gstatic.com/firebasejs/releases.json
+[debug] [2022-11-02T16:05:03.044Z] ----------------------------------------------------------------------
+[debug] [2022-11-02T16:05:03.047Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2022-11-02T16:05:03.047Z] CLI Version:   11.16.0
+[debug] [2022-11-02T16:05:03.047Z] Platform:      win32
+[debug] [2022-11-02T16:05:03.047Z] Node Version:  v16.17.0
+[debug] [2022-11-02T16:05:03.048Z] Time:          Wed Nov 02 2022 21:35:03 GMT+0530 (India Standard Time)
+[debug] [2022-11-02T16:05:03.048Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-02T16:05:03.056Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-02T16:05:03.058Z] > authorizing via signed-in user (aartisharma0799@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React\make-your-own-food-redux
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-02T16:05:13.598Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-02T16:05:14.462Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-11-02T16:05:14.462Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project recipe-app-43c30 (Recipe App) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-11-02T16:05:25.458Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-11-02T16:05:25.789Z] FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: unable to get local issuer certificate
+    at ClientRequest.<anonymous> (C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\node-fetch\lib\index.js:1491:11)
+    at ClientRequest.emit (node:events:513:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to make request to https://www.gstatic.com/firebasejs/releases.json
+[debug] [2022-11-02T16:07:41.268Z] ----------------------------------------------------------------------
+[debug] [2022-11-02T16:07:41.271Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2022-11-02T16:07:41.272Z] CLI Version:   11.16.0
+[debug] [2022-11-02T16:07:41.272Z] Platform:      win32
+[debug] [2022-11-02T16:07:41.272Z] Node Version:  v16.17.0
+[debug] [2022-11-02T16:07:41.274Z] Time:          Wed Nov 02 2022 21:37:41 GMT+0530 (India Standard Time)
+[debug] [2022-11-02T16:07:41.274Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-02T16:07:41.282Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-02T16:07:41.285Z] > authorizing via signed-in user (aartisharma0799@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React\make-your-own-food-redux
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-02T16:07:49.359Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-02T16:07:50.282Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-11-02T16:07:50.283Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project recipe-app-43c30 (Recipe App) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-11-02T16:07:56.803Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-11-02T16:07:58.077Z] FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: unable to get local issuer certificate
+    at ClientRequest.<anonymous> (C:\Users\aarti.sharma01\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\node-fetch\lib\index.js:1491:11)
+    at ClientRequest.emit (node:events:513:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to make request to https://www.gstatic.com/firebasejs/releases.json

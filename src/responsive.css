@@ -1,0 +1,98 @@
+@media screen and (max-width: 1200px) {
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content {
+    width: 80%;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .recipe-card {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .single-recipe-container {
+    flex-direction: column;
+  }
+  .recipe-info {
+    width: 100%;
+  }
+  .recipe-info h2 {
+    font-size: 26px;
+  }
+  .recipe-image {
+    width: 55%;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .cross-icon {
+    display: inline-block;
+  }
+  .nav-cuisines {
+    display: block;
+    position: absolute;
+    background-color: rgb(245, 236, 236);
+    margin-left: auto;
+    max-width: 80%;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    z-index: 4;
+  }
+  .nav-cuisine-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding: 0 20px;
+    margin: 20px auto;
+    gap: 30px;
+  }
+  .cuisine-card {
+    width: 70%;
+  }
+  .cuisine-cards {
+    display: none;
+    flex-wrap: wrap;
+  }
+  .recipe-card {
+    width: 45%;
+  }
+  .search-bar input {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content {
+    flex-direction: column;
+    height: 50vh;
+  }
+  .arrow {
+    transform: rotate(90deg);
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo h2 {
+    margin: 0;
+  }
+  .recipe-card {
+    width: 80%;
+    height: 40vh;
+  }
+  .recipe-image {
+    width: 40%;
+    height: 28vh;
+  }
+}
